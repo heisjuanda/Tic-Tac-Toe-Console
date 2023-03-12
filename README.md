@@ -2,7 +2,7 @@
 
 JS code
 
-#Global Variables
+# Global Variables
 ```JavaScript
 var matrix = [
   ["", "", ""],
@@ -14,7 +14,7 @@ var playerTwo = false;
 var ganar = false;
 ```
 
-#Functions
+# Functions
 ```JavaScript
 function updateMatrix(data, pos) {
   //data is the value that we're gonna add ('X' or 'O')
@@ -29,11 +29,11 @@ const init = (str) => {
   //Starts the game
 }
 ```
-#Example
+# Example One
 ```JavaScript
 console.log(init("2 4 5 8 1 3 9 6 7"));
 ```
-##It returns
+## It returns
 ```bash
 [
   [ 'X', 'X', 'O' ],
@@ -42,6 +42,36 @@ console.log(init("2 4 5 8 1 3 9 6 7"));
 ]
 
 'player one Won! (X)'
+```
+
+# Example Two
+```JavaScript
+console.log(init("2 1 4 3 6 5 8 7 9"));
+```
+## It returns
+```bash
+[
+  [ 'O', 'X', 'O' ],
+  [ 'X', 'O', 'X' ],
+  [ 'O', 'X', '' ]
+]
+
+'player two Won! (O)'
+```
+
+# Example Three
+```JavaScript
+console.log(init("1 2 3 5 4 7 6 9 8"));
+```
+## It returns
+```bash
+[
+  [ 'X', 'O', 'X' ],
+  [ 'X', 'O', 'X' ],
+  [ 'O', 'X', 'O' ]
+]
+
+'hubo un empate'
 ```
 
 
