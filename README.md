@@ -29,3 +29,19 @@ const init = (str) => {
   //Starts the game
 }
 ```
+#Example
+```JavaScript
+console.log(init("2 4 5 8 1 3 9 6 7"));
+```
+##It returns
+```bash
+[
+  [ 'X', 'X', 'O' ],
+  [ 'O', 'X', '' ],
+  [ '', 'O', 'X' ]
+]
+
+'player one Won! (X)'
+```
+
+
