@@ -107,9 +107,11 @@ const init = (str) => {
     arr.forEach((el, id) => {
       if(playerOne){
         message = 'player one Won! (X)'
+        return
       }
       if(playerTwo){
         message = "player two Won! (O)"
+        return
       }
       if (id % 2 == 0) {
         updateMatrix("X", el);
