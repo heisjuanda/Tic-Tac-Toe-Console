@@ -1,0 +1,19 @@
+{
+  "name": "triqui-consola",
+  "version": "1.0.0",
+  "description": "triqui game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jdma253/Tic-Tac-Toe-Console.git"
+  },
+  "author": "Juan David Moreno A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdma253/Tic-Tac-Toe-Console/issues"
+  },
+  "homepage": "https://github.com/jdma253/Tic-Tac-Toe-Console#readme"
+}
