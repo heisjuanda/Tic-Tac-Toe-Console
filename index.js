@@ -122,7 +122,7 @@ const init = (str) => {
       }
     });
     if(playerOne===false && playerTwo===false){
-     message = "hubo un empate"
+     message = "Draw!"
     }
     console.log(matrix)
     return message;
