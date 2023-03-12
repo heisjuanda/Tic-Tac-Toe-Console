@@ -71,7 +71,7 @@ console.log(init("1 2 3 5 4 7 6 9 8"));
   [ 'O', 'X', 'O' ]
 ]
 
-'hubo un empate'
+'Draw!'
 ```
 
 
